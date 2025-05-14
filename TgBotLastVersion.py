@@ -14,7 +14,7 @@ def start(message):
 
 @bot.message_handler(regexp='Мой создательℹ')
 def creator(message):
-    bot.send_message(message.chat.id,'16 лет\nTelegram:@HQD_Daniil\nDiscord:.hqd.\nSteam: https://steamcommunity.com/profiles/76561199052437320/')
+    bot.send_message(message.chat.id,'17 лет\nTelegram:@HQD_Daniil\nDiscord:.hqd.\nSteam: https://steamcommunity.com/profiles/76561199052437320/')
 
 @bot.message_handler(regexp='Стикеры')
 def stickers(message):
